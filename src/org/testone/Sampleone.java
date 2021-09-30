@@ -19,6 +19,10 @@ public class Sampleone {
 		System.out.println("Employee salary is $12000");
 	}
 	
+	private void empBike() {
+		System.out.println("Employee bike is Royal Enfield");
+	}
+	
 	public static void main(String[] args) {
 		
 		Sampleone a = new Sampleone();
@@ -27,6 +31,7 @@ public class Sampleone {
 		a.empMobno();
 		a.empAdd();
 		a.empSalary();
+		a.empBike();
 	}
 
 }
